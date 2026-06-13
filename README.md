@@ -2,7 +2,7 @@
 
 A semantic search engine that understands the **meaning** of user queries instead of relying on keyword matching — built with Sentence-BERT embeddings, FAISS indexing, and cosine similarity retrieval.
 
-[![Streamlit App]()
+[![Streamlit App](https://quora-semantic-search-engine.streamlit.app/)
 ---
 
 ##  Project Overview
