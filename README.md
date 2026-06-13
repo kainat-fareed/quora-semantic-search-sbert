@@ -14,7 +14,7 @@ The system encodes all questions into dense vector representations and retrieves
 
 ##  Pipeline
 
-\```
+```
 Raw Dataset (Quora Question Pairs)
         │
         ▼
@@ -43,7 +43,7 @@ Semantic Search  ←  Cosine similarity on query embedding
         │
         ▼
 Top-K Retrieved Results
-\```
+```
 
 ---
 
@@ -144,9 +144,9 @@ Each query returns the **top-5 most semantically similar questions** with cosine
 
 ##  Installation
 
-\```bash
+```bash
 pip install sentence-transformers faiss-cpu scikit-learn datasets pandas numpy
-\```
+```
 
 > Use `faiss-gpu` instead of `faiss-cpu` if you have a CUDA-compatible GPU.
 
@@ -155,14 +155,14 @@ pip install sentence-transformers faiss-cpu scikit-learn datasets pandas numpy
 
 ##  Project Structure
 
-\```
+```
 semantic-search-engine/
 │
 ├── notebook.ipynb       # Main notebook with full pipeline
 ├── app.py               # Streamlit web app
 ├── requirements.txt     # Dependencies
 └── README.md
-\```
+```
 
 ---
 ##  How to Run
