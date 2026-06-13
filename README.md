@@ -158,7 +158,7 @@ pip install sentence-transformers faiss-cpu scikit-learn datasets pandas numpy
 ```
 semantic-search-engine/
 │
-├── notebook.ipynb       # Main notebook with full pipeline
+├── semantic_search_using_pretrained_embeddings.ipynb      # Main notebook with full pipeline
 ├── app.py               # Streamlit web app
 ├── requirements.txt     # Dependencies
 └── README.md
@@ -177,7 +177,7 @@ semantic-search-engine/
 git clone https://github.com/kainat-fareed/quora-semantic-search-sbert
 cd semantic-search-engine
 pip install -r requirements.txt
-jupyter notebook notebook.ipynb
+jupyter notebook semantic_search_using_pretrained_embeddings.ipynb
 ```
 
 **Streamlit App:**
